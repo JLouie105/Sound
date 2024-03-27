@@ -10,9 +10,11 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  var canvas = createCanvas(400, 400);
   background(220);
   
+  canvas.parent('project');
+
   delay = new p5.Delay();
 }
 
